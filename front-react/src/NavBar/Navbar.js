@@ -10,13 +10,13 @@ import {
 } from "./NavbarElements";
 import KALOGO from '../assates/KALOGO.jpg'
 
-console.log(KALOGO)
+
 const Navbar = () => {
     return (
         <>
            <Nav>
             <NavLogo to="/">
-             <img src={KALOGO} style={{width:150,height:150}}/>
+             <img src={KALOGO} style={{width:150,height:150}} alt="logoKA"/>
             </NavLogo>
             <Bars />
 
@@ -30,8 +30,8 @@ const Navbar = () => {
                 <NavLink to="/contact" activeStyle>
                     Contact
                 </NavLink>
-                <NavLink to="/signin" activeStyle>
-                    Sign In
+                <NavLink to="" activeStyle>
+                Search<input></input>
                 </NavLink>
                 <NavBtn>
                     <NavBtnLink to="/sign-up">Sign Up</NavBtnLink>                
