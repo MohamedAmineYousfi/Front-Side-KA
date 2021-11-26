@@ -13,7 +13,7 @@ textDecorationColor:"white",
 color:"white",display: "row"}}>
     <div >
     Kamergi Audio
-       <img src={KALOGO} style={{width:150,height:150}} alt="logoKA"/></div>
+       <img src={KALOGO} style={{width:150,height:150,marginLeft:150,marginTop:30}} alt="logoKA"/></div>
 </div>
     );
 };
