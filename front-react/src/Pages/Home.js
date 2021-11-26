@@ -1,7 +1,7 @@
 import React from 'react';
 import picture from '../assates/casque-audio-anti-bruit-musique.jpg'
 import axios from 'axios'
-
+import '../index.css';
   class Home extends React.Component {
     constructor(){
       super()
@@ -29,16 +29,17 @@ import axios from 'axios'
   <div style={{width:150,fontSize:50,alignContent:'center',marginTop:150}}>
       <img src={picture} style={{marginLeft:600,width:1250,height:500}} alt="BaffleKA"/>
       <h4 style={{marginLeft:700}}>Category</h4>
-      <div>
-        <ul>
+      <div >
+        <div className="container">
           {this.state.data.map((e,k)=>(
-   <li key={k}>  
-     <div className="" >{e.name} - {e.price} DT</div>
-    <img src={e.imgurl} className="" alt="imag"/>     
-    <div> {e.quantity}</div>  
-   </li>
+   <div key={k} className="one">  
+    <div className="title" >{e.name.slice(0,10)} </div>
+    <img src={e.imgurl} className="image" alt="imag"/> 
+     <div className="price">Price : {e.price} DT</div>
+    <div className="price">  Restant : {e.quantity}</div>  
+   </div>
           ))}
-        </ul>
+        </div>
       </div>
       </div>
   );}
