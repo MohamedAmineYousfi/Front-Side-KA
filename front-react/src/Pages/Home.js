@@ -28,15 +28,19 @@ import '../index.css';
   return (    
   <div style={{width:150,fontSize:50,alignContent:'center',marginTop:150}}>
       <img src={picture} style={{marginLeft:600,width:1250,height:500}} alt="BaffleKA"/>
-      <h4 style={{marginLeft:700}}>Category</h4>
+      <h4 style={{marginLeft:750}}>Category</h4>
+      <h4 style={{marginLeft:250}}>  Casques</h4>
       <div >
         <div className="container">
           {this.state.data.map((e,k)=>(
    <div key={k} className="one">  
     <div className="title" >{e.name.slice(0,10)} </div>
     <img src={e.imgurl} className="image" alt="imag"/> 
-     <div className="price">Price : {e.price} DT</div>
-    <div className="price">  Restant : {e.quantity}</div>  
+
+    <div className="price" style={{backgroundColor:'grey',color:'black',fontSize:25}}>
+     <div> Price : {e.price} DT</div>
+     <div>  Restant : {e.quantity}</div> 
+    </div> 
    </div>
           ))}
         </div>

@@ -18,7 +18,8 @@ code {
   justify-content: center;
   column-gap: 60px;
   align-items: center;
-  margin-left: 1000px;
+  margin-left: 550px;
+  width: 900px;
 }
 
 .title {
