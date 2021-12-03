@@ -39,7 +39,7 @@ import '../index.css';
 
     <div className="price" style={{backgroundColor:'grey',color:'black',fontSize:25}}>
      <div> Price : {e.price} DT</div>
-     <div>  Restant : {e.quantity}</div> 
+     <div>  P Restant : {e.quantity}</div> 
     </div> 
    </div>
           ))}
