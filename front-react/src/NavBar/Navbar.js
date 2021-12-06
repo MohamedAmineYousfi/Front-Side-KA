@@ -8,6 +8,7 @@ import {
     NavBtn,
     NavBtnLink,
 } from "./NavbarElements";
+import Button from 'react-bootstrap/Button';
 import KALOGO from '../assates/KALOGO.jpg'
 
 
@@ -34,7 +35,8 @@ const Navbar = () => {
                 Search<input></input>
                 </NavLink>
                 <NavBtn>
-                    <NavBtnLink to="/sign-up">Sign Up</NavBtnLink>                
+                    <NavBtnLink to="/sign-up">Panier
+                    <i class="fas fa-shopping-cart"></i></NavBtnLink>                
                 </NavBtn>
             </NavMenu> 
            </Nav> 
