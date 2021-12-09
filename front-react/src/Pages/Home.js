@@ -67,16 +67,16 @@ import { Container, Row, Col , Button ,ListGroup,ListGroupItem} from 'react-boot
   >
   <Card.Img variant="top" src={e.imgurl} />
     <Card.Body>
-    <Card.Title>{e.name.slice(0,22)}</Card.Title>
+    <Card.Title style={{fontSize:40}}>{e.name.slice(0,22)}</Card.Title>
     <Card.Text>
      {e.description.slice(0,19)}
     </Card.Text>
     <ListGroup className="list-group">
     <ListGroupItem>{e.description}</ListGroupItem>
-    {/* <ListGroupItem>{e.rating}</ListGroupItem>
-    <ListGroupItem>{e.views}</ListGroupItem> */}
+    <ListGroupItem>{e.rating}</ListGroupItem>
+    <ListGroupItem>{e.views}</ListGroupItem>
   </ListGroup>
-    <Card.Text>Price : {e.price} DT  </Card.Text>
+    <Card.Text style={{color:'red',fontSize:40}}>Price : {e.price} DT  </Card.Text>
     <Button variant="primary">Ajouter au Panier</Button>
     </Card.Body>
 </Card>
