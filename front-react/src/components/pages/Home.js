@@ -27,7 +27,15 @@ function Home() {
           </div>
 
           </div>
-        <div className="listofImages">2</div>
+        <div className="listofImages">
+          <div className="blockOfImages">1</div>
+          <div className="loadMore">
+            <span>
+
+            LOAD MORE
+            </span>
+          </div>
+        </div>
       </div>
     </>
   );
