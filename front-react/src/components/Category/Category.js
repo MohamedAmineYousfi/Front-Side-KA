@@ -6,12 +6,12 @@ function Category() {
     return (
         <>
             <div className="Category">
-                <div>SONO</div>
-                <div> DJYING</div>
-                <div>HEADPHONE</div>
-                <div> Table</div>
-                <div>AUDIOONE</div>
-                <div>AUDIOONE</div>
+                <div>INSTRUMENT</div>
+                <div>DJYING</div>
+                <div>CASQUE</div>
+                <div>MICRO</div>
+                <div>BAFFLE</div>
+                <div>ADRESS PUBLIC</div>
             </div>
             <div className="imagesGallery">
                 <div className="first">
