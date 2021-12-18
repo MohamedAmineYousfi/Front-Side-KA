@@ -9,8 +9,25 @@ function Home() {
       <Caroussel />
       <Category />
       <div className="sideBar">
-        <div>1</div>
-        <div>2</div>
+        <div className="checkbox">
+          <div>    
+                  <span className="span">
+            Shop Some Wear: 
+
+          </span>
+          <div className="filter">
+            
+          <input type="checkbox"/> <span>BEST SELLERS</span><br/>
+          <input type="checkbox"/> <span>NEW ARIVALS</span><br/>
+          <input type="checkbox"/> <span>TOP WOMEN</span><br/>
+          <input type="checkbox"/> <span>COLLECTION: SUMMER</span><br/>
+          <input type="checkbox"/> <span>COLLECTION: SPRING</span><br/>
+          <input type="checkbox"/> <span>TRENDING</span>
+          </div>
+          </div>
+
+          </div>
+        <div className="listofImages">2</div>
       </div>
     </>
   );
