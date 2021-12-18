@@ -41,8 +41,8 @@ function Caroussel() {
         <div className="text">
           <div className="title">
             <div className="sale">
-              SUMMER SALE <br />
-              GET
+              1er Fournisseur de materiel Sono  <br />
+              en TUNISIE
             </div>
             <div className="button">
               SHOP NOW

@@ -15,7 +15,7 @@
 
 .Category::before {
   position: absolute;
-  content: "CHOSE YOUR CATEGORY";
+  content: "CHOISIR VOTRE CATEGORIE";
   height: 3vh;
   width: 28vw;
   background-color: white;
