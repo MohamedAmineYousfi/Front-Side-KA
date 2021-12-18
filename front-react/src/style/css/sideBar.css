@@ -13,10 +13,8 @@
 .sideBar div {
   height: 100vh;
 }
-.sideBar .checkbox{
+.sideBar .checkbox {
   position: relative;
-  background-color: brown;
-
   width: 28.6vw;
   height: 100%;
 }
@@ -39,17 +37,14 @@
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
- flex-direction: row;
- 
+  flex-direction: row;
 }
- .span {
+.span {
   margin: 15px;
   font-size: 24px;
   font-weight: bold;
-
 }
 .filter input {
-  padding: 15px ;
+  padding: 15px;
   margin: 10px;
- 
 }
