@@ -1,0 +1,33 @@
+.sideBar {
+  background-color: blue;
+  width: 96vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  height: 100vh;
+  transform: translateY(13rem);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sideBar div {
+  height: 100vh;
+}
+.sideBar div:first-child {
+  position: relative;
+  background-color: brown;
+  width: 28.6vw;
+}
+
+.sideBar div:last-child {
+  background-color: brown;
+  width: 66vw;
+}
+
+.sideBar div:first-child::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgb(163, 149, 149);
+  right: -1px;
+  height: 100vh;
+}
