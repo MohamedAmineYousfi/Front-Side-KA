@@ -30,7 +30,7 @@ function SideBar() {
             {/** start images */} 
             <div>
               <div>
-                <img className="hegWid" src={image3} alt="img" />
+                <img className="hegWid" src={image2} alt="img" />
                 <span className="cardTitle">TOP WOMEN</span>
                 <div className="cardBody">
                   Angels malu zip jeans slim black
@@ -40,6 +40,90 @@ function SideBar() {
             </div>
             {/** end images */} 
             
+               {/** start images */} 
+               <div>
+              <div>
+                <img className="hegWid" src={image4} alt="img" />
+                <span className="cardTitle">TOP WOMEN</span>
+                <div className="cardBody">
+                  Angels malu zip jeans slim black
+                  <div className="price">139,00 EUR</div>
+                </div>
+              </div>
+            </div>
+            {/** end images */} 
+               {/** start images */} 
+               <div>
+              <div>
+                <img className="hegWid" src={image3} alt="img" />
+                <span className="cardTitle">TOP WOMEN</span>
+                <div className="cardBody">
+                  Angels malu zip jeans slim black
+                  <div className="price">139,00 EUR</div>
+                </div>
+              </div>
+            </div>
+            {/** end images */} 
+               {/** start images */} 
+               <div>
+              <div>
+                <img className="hegWid" src={image4} alt="img" />
+                <span className="cardTitle">TOP WOMEN</span>
+                <div className="cardBody">
+                  Angels malu zip jeans slim black
+                  <div className="price">139,00 EUR</div>
+                </div>
+              </div>
+            </div>
+            {/** end images */} 
+               {/** start images */} 
+               <div>
+              <div>
+                <img className="hegWid" src={image2} alt="img" />
+                <span className="cardTitle">TOP WOMEN</span>
+                <div className="cardBody">
+                  Angels malu zip jeans slim black
+                  <div className="price">139,00 EUR</div>
+                </div>
+              </div>
+            </div>
+            {/** end images */} 
+               {/** start images */} 
+               <div>
+              <div>
+                <img className="hegWid" src={image3} alt="img" />
+                <span className="cardTitle">TOP WOMEN</span>
+                <div className="cardBody">
+                  Angels malu zip jeans slim black
+                  <div className="price">139,00 EUR</div>
+                </div>
+              </div>
+            </div>
+            {/** end images */} 
+               {/** start images */} 
+               <div>
+              <div>
+                <img className="hegWid" src={image4} alt="img" />
+                <span className="cardTitle">TOP WOMEN</span>
+                <div className="cardBody">
+                  Angels malu zip jeans slim black
+                  <div className="price">139,00 EUR</div>
+                </div>
+              </div>
+            </div>
+            {/** end images */} 
+               {/** start images */} 
+               <div>
+              <div>
+                <img className="hegWid" src={image2} alt="img" />
+                <span className="cardTitle">TOP WOMEN</span>
+                <div className="cardBody">
+                  Angels malu zip jeans slim black
+                  <div className="price">139,00 EUR</div>
+                </div>
+              </div>
+            </div>
+            {/** end images */} 
           </div>
 
           <div className="loadMore">
