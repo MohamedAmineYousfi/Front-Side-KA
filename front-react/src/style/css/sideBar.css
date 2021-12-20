@@ -58,28 +58,26 @@
   position: relative;
   width: 100%;
 }
-/*block of image */ 
+/*block of image */
 
 .blockOfImages {
-
   flex: 0.92;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-wrap: wrap;
 }
-.blockOfImages div{
+.blockOfImages div {
   margin-right: 0.85rem;
   width: calc((125vw) / 8);
-  height: calc(((100vh - 10vh) - 0.8rem ) / 2);
+  height: calc(((100vh - 10vh) - 0.8rem) / 2);
   margin-bottom: 0.8rem;
-
 }
 .hegWid {
-width: 15.6vw;
-height: 35vh;
+  width: 15.6vw;
+  height: 35vh;
 }
- 
+
 /**load more*/
 .loadMore {
   flex: 0.08;
@@ -100,9 +98,8 @@ height: 35vh;
 }
 /*end load more */
 .cardTitle {
-font-size: 0.8rem;
-color: darkgrey;
-
+  font-size: 0.8rem;
+  color: darkgrey;
 }
 
 .cardBody {
@@ -115,4 +112,59 @@ color: darkgrey;
   margin-top: 0.3rem;
   font-size: 20px;
   height: auto !important;
+}
+
+@media (max-width: 1600px) {
+  .sideBar .listofImages {
+    width: 67vw;
+  }
+}
+@media (max-width: 1400px) {
+  .sideBar .listofImages {
+    width: 67.5vw;
+  }
+  .sideBar .checkbox {
+    position: relative;
+    width: 27.6vw;
+    height: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .blockOfImages,
+  .loadMore {
+    position: relative;
+    width: 101%;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    background-color: rgb(184, 110, 13);
+  }
+  .blockOfImages div {
+    width: calc((120vw) / 6);
+  }
+  .sideBar .listofImages {
+    width: 65.5vw;
+  }
+  .hegWid {
+    width: 19.6vw;
+    height: 35vh;
+  }
+
+  .sideBar .checkbox::after {
+    height: 144vh;
+  }
+  .loadMore {
+    margin-top: 22rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: rgb(71, 44, 9);
+  }
+
+  
 }
