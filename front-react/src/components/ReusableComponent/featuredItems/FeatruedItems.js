@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "../../assates/master-audio-two-way-fashion-speakerbt800-b.jpg"
+import image from "../../../assates/master-audio-two-way-fashion-speakerbt800-b.jpg"
 function FeatruedItems() {
     return (
         <>

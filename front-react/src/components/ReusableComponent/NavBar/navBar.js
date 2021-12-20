@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import image from "../../assates/KALOGO.jpg";
+import image from "../../../assates/KALOGO.jpg";
 function NavBar() {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (

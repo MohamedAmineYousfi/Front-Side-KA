@@ -1,7 +1,7 @@
 import React from 'react'
-import image2 from "../../assates/pack-sonorisation-2200w-enceintes-caisson-pieds-usb-bluetooth-bm-sonic-bms1512.jpg"
-import image3 from "../../assates/pack-sonorisation-audio-club-15-sono-dj-bass-reflex-enceintes-trapezoidal-a-3-voies-15-38cm-1400w-amplificateur-1000w.jpg"
-import image4 from "../../assates/images.jpg"
+import image2 from "../../../assates/pack-sonorisation-2200w-enceintes-caisson-pieds-usb-bluetooth-bm-sonic-bms1512.jpg"
+import image3 from "../../../assates/pack-sonorisation-audio-club-15-sono-dj-bass-reflex-enceintes-trapezoidal-a-3-voies-15-38cm-1400w-amplificateur-1000w.jpg"
+import image4 from "../../../assates/images.jpg"
 function Category() {
     return (
         <>

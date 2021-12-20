@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import image1 from "../../assates/casque-audio-anti-bruit-musique.jpg";
-import image4 from "../../assates/images.jpg";
-import image2 from "../../assates/pack-sonorisation-2200w-enceintes-caisson-pieds-usb-bluetooth-bm-sonic-bms1512.jpg";
-import image3 from "../../assates/pack-sonorisation-audio-club-15-sono-dj-bass-reflex-enceintes-trapezoidal-a-3-voies-15-38cm-1400w-amplificateur-1000w.jpg";
+import image1 from "../../../assates/casque-audio-anti-bruit-musique.jpg";
+import image4 from "../../../assates/images.jpg";
+import image2 from "../../../assates/pack-sonorisation-2200w-enceintes-caisson-pieds-usb-bluetooth-bm-sonic-bms1512.jpg";
+import image3 from "../../../assates/pack-sonorisation-audio-club-15-sono-dj-bass-reflex-enceintes-trapezoidal-a-3-voies-15-38cm-1400w-amplificateur-1000w.jpg";
 
 function Caroussel() {
   const [index1, setIndex1] = useState(true);

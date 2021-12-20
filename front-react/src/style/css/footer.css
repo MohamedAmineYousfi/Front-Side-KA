@@ -1,0 +1,8 @@
+.footer {
+  width: 100%;
+  height: 75vh;
+  background-color: black;
+  color :white;  
+    transform: translateY(35rem);
+
+}

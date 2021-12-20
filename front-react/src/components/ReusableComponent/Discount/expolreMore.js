@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assates/P328.589__G_300.jpg";
+import image from "../../../assates/P328.589__G_300.jpg";
 function ExpolreMore() {
   return (
     <>

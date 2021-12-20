@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "../../assates/103102735_298006384923121_4821662942372246899_n.jpg"
+import image from "../../../assates/103102735_298006384923121_4821662942372246899_n.jpg"
 function Discount() {
     return (
      <>
