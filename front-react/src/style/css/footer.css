@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  height: 75vh;
+  height: 70vh;
   background-color: black;
   color: white;
   transform: translateY(35rem);
@@ -15,12 +15,26 @@
 
 
 .first-footer-container {
-  height: 12vh;
-  background-color: rgb(13, 56, 56);  
+  height: 10vh;
+    background-color: rgb(187, 216, 224);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-
+.first-footer-container-small {
+    width: calc(98% / 5);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.icon-color {
+    color: black;
+    margin-right: 1rem;
+}
 .second-footer-container {
-    height: calc(56vh);
+    height: calc(52vh);
     background-color: brown;
 }
 
