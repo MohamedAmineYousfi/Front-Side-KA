@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import image from "../../assates/casque-audio-anti-bruit-musique.jpg";
+import image1 from "../../assates/casque-audio-anti-bruit-musique.jpg";
 import image4 from "../../assates/images.jpg"
 import image2 from "../../assates/pack-sonorisation-2200w-enceintes-caisson-pieds-usb-bluetooth-bm-sonic-bms1512.jpg"
 import image3 from "../../assates/pack-sonorisation-audio-club-15-sono-dj-bass-reflex-enceintes-trapezoidal-a-3-voies-15-38cm-1400w-amplificateur-1000w.jpg"
@@ -9,7 +9,6 @@ function Caroussel() {
   const [index2, setIndex2] = useState(false)
   const [index3, setIndex3] = useState(false)
   const [index4, setIndex4] = useState(false)
-  const [images , setImages] = useState(image)
   const changeImage = (index) => {
     if (index === 1) {
      
@@ -64,10 +63,10 @@ function Caroussel() {
         </div>
         <div className="caroussel">
           <div className="images">
-            <img src={images} className={index1 ?'traspanrent':null} alt="img" />
-            <img src={image2} className={index2?'traspanrent':null} alt="img" />
-            <img src={image3} className={index3?'traspanrent':null} alt="img" />
-            <img src={image4} className={index4?'traspanrent':null} alt="img" />
+          <img src={image1} className={index1 === true && !index2 && !index3 && !index4 ?null:'traspanrent'} alt="img" />
+          <img src={image2} className={index2  === true && !index1 && !index3 && !index4 ?null:'traspanrent'} alt="img" />
+          <img src={image3} className={index3  === true && !index2 && !index1 && !index4 ?null:'traspanrent'} alt="img" />
+           <img src={image4} className={index4  === true && !index2 && !index3 && !index1 ?null:'traspanrent'} alt="img" />
           </div>
           <div className="arrow">
             <span>
