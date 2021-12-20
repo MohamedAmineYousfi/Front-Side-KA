@@ -10,7 +10,10 @@ function Home() {
       <Caroussel />
       <Category />
       <SideBar/>
-     
+     <div className="discount">
+      <div>1</div>
+      <div>2</div>
+     </div>
     </>
   );
 }
