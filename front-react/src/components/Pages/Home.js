@@ -11,8 +11,8 @@ function Home() {
       <Category />
       <SideBar/>
      <div className="discount">
-      <div>1</div>
-      <div>2</div>
+      <div className="smallContainer">1</div>
+      <div className="smallContainer">2</div>
      </div>
     </>
   );
