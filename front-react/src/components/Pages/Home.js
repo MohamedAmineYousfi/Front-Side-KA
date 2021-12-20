@@ -10,13 +10,24 @@ function Home() {
       <NavBar />
       <Caroussel />
       <Category />
-      <SideBar/>
-     <div className="discount">
-      <div className="smallContainer">1</div>
-      <div className="smallContainer ">
-        <img src={image} className="fit-container" alt="img"/>
+      <SideBar />
+      <div className="discount">
+        <div className="smallContainer secondSmallContainer">
+          <div className="nestedContainer HTilte">shoping without limits.</div>
+          <div className="nestedContainer afterLine">
+            You can choose the best option for you, and it does not
+            matter whether you are in Prague or San Francisco. We
+            will deliver your purchase!
+            </div>
+          <div className="nestedContainer shopNow">
+            <span className="shopBtn">shop now</span>
+          </div>
+
+        </div>
+        <div className="smallContainer secondSmallContainerForImage">
+          <img src={image} className="fit-container" alt="img" />
+        </div>
       </div>
-     </div>
     </>
   );
 }
