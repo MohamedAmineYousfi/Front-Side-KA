@@ -43,5 +43,7 @@
     position: absolute;
     top: -1px;
     border: 1px solid grey;
-    width:99% ;
-}
+    width:98%;
+    margin-left:1%;
+    margin-right:1%;
+}   
