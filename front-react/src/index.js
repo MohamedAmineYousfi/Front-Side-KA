@@ -5,6 +5,7 @@ import "../src/style/css/slider.css"
 import "../src/style/css/Category.css"
 import "../src/style/css/sideBar.css"
 import "../src/style/css/discount.css"
+import "../src/style/css/featuredItems.css"
 import React from 'react';
 import ReactDOM from 'react-dom';
 
