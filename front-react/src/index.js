@@ -6,6 +6,7 @@ import "../src/style/css/Category.css"
 import "../src/style/css/sideBar.css"
 import "../src/style/css/discount.css"
 import "../src/style/css/featuredItems.css"
+import "../src/style/css/footer.css"
 import React from 'react';
 import ReactDOM from 'react-dom';
 

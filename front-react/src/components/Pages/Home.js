@@ -7,6 +7,7 @@ import Discount from "../Discount/Discount";
 import FeatruedItems from "../featuredItems/FeatruedItems";
 import MostPopular from "../featuredItems/MostPopular";
 import ExpolreMore from "../Discount/expolreMore";
+import Footer from "../Footer/Footer";
 function Home() {
   return (
     <>
@@ -18,6 +19,7 @@ function Home() {
      <FeatruedItems/>
       <MostPopular/>
       <ExpolreMore/>
+      <Footer/>
         
     </>
   );
