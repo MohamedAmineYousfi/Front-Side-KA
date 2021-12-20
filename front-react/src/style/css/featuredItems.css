@@ -1,9 +1,49 @@
 .featuredItems  {
-    background-color: burlywood;
     height: 60vh;
     width: 96vw;
     margin-left: 2vw;
     margin-right: 2vw;
     transform: translateY(18rem);
     position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container-featuredItems {
+}
+
+
+.first-container {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;    
+}
+.Items-style {
+    font-size: 1.5rem;
+}
+.second-container {
+    height: 90%;
+    background-color: khaki;
+}
+.container-arrow {
+
+height: 100%;
+width: 5vw;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.container-arrow-style {
+  
+    font-size: 0.938rem;
+    border: 1px solid grey ;
+    padding: 0.6rem;
+    width: 2.4vw;
+    align-items: center;
+
+    text-align: center;
 }
