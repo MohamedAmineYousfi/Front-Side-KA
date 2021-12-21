@@ -134,3 +134,35 @@
   margin-left: 1%;
   margin-right: 1%;
 }
+@media (min-width: 768px) {
+
+}
+
+
+/*meduim*/
+
+@media (min-width: 992px) {
+  
+}
+
+
+/*large*/
+
+@media (min-width: 1200px) {
+   
+}
+
+@media (min-width: 1400px) {
+ 
+}
+
+@media (min-width: 1600px) {
+  
+}
+
+
+/*larger*/
+
+@media (min-width: 1920px) {
+    
+}
