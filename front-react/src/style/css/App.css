@@ -6,10 +6,15 @@
     background-color: rgb(104, 93, 93);
     min-height: 90px;
 }
-
+::selection {
+    
+    background-color: black;
+    color: white;
+}
 ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
+    
     opacity: 1;
     /* Firefox */
     font-size: 15px;

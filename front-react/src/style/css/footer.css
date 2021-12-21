@@ -9,55 +9,128 @@
   align-items: center;
   justify-content: space-between;
 }
-.first-footer-container , .third-footer-container,.second-footer-container {
-    width:100% ;
+.first-footer-container,
+.third-footer-container,
+.second-footer-container {
+  width: 100%;
 }
-
 
 .first-footer-container {
   height: 10vh;
-    background-color: rgb(187, 216, 224);
+  background-color: rgb(187, 216, 224);
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 .first-footer-container-small {
-    width: calc(98% / 5);
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: black;
+  width: calc(98% / 5);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
 }
 .icon-color {
-    color: black;
-    margin-right: 1rem;
+  color: black;
+  margin-right: 1rem;
 }
 .second-footer-container {
-    height: calc(52vh);
-    background-color: brown;
+  height: calc(52vh);
+  width: 98%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.second-footer-container-small {
+  width: calc(96% / 6);
+  height: 75%;
+}
+.footer-Subscribe {
+  border: 1px solid grey;
+  margin-top: 0.5rem;
+  height: 3.8vh;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding-top: calc(3.8vh / 4);
 }
 
+.second-footer-container-small-second {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-flex {
+  margin-left: 0.5rem;
+  margin-top: -0.5rem;
+}
+.small-title-footer {
+  color: white;
+  font-size: 1rem;
+}
+.logo-footer-width {
+  width: 80px;
+}
+.footer-text-color1 {
+  padding-bottom: 0.5rem;
+  color: grey;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.footer-text-color2 {
+  padding-bottom: 0.5rem;
+  color: grey;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+.footer-email {
+  width: 100%;
+  height: 3.8vh;
+  border: 1px solid grey;
+  outline: none;
+  color: white;
+  background-color: black;
+}
+.footer-email::placeholder {
+  padding: 0.8rem !important;
+  color: grey !important;
+}
+.footer-text-color {
+  padding-bottom: 0.5rem;
+  color: grey;
+  text-transform: uppercase;
+}
+.footer-logo {
+  color: white;
+  font-size: 1.8rem;
+}
+.footer-title {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  padding-bottom: 2rem;
+}
 .third-footer-container {
-    position: relative;
-    height: 6vh;
-    display: flex;
-    justify-content: flex-start;
-    font-size: 0.8rem;
-    align-items: center;
-   
+  position: relative;
+  height: 6vh;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.8rem;
+  align-items: center;
 }
 .third-footer-container-text {
-    margin-left: 1vw;
+  margin-left: 1vw;
 }
 
-
 .third-footer-container::after {
-    content: '';
-    position: absolute;
-    top: -1px;
-    border: 1px solid grey;
-    width:98%;
-    margin-left:1%;
-    margin-right:1%;
-}   
+  content: "";
+  position: absolute;
+  top: -1px;
+  border: 1px solid grey;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
