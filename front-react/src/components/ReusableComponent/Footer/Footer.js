@@ -36,13 +36,13 @@ function Footer() {
           </div>
           <div className="second-footer-container-small ">
             <div className="footer-title">features</div>
-            <div className="footer-text-color" >men</div>
-            <div className="footer-text-color" >Women</div>
-            <div className="footer-text-color" >boys</div>
-            <div className="footer-text-color" >girls</div>
+            <div className="footer-text-color" >Casque</div>
+            <div className="footer-text-color" >Baffle</div>
+            <div className="footer-text-color" >Sono</div>
+            <div className="footer-text-color" >Micro</div>
             <div className="footer-text-color" >new arrivals</div>
-            <div className="footer-text-color" >shoes</div>
-            <div className="footer-text-color" >cothes</div>
+            <div className="footer-text-color" >Adress Public</div>
+            <div className="footer-text-color" >Guitares</div>
             <div className="footer-text-color" >accessories</div>
 
           </div>
@@ -60,9 +60,9 @@ function Footer() {
           </div>
           <div className="second-footer-container-small ">
             <div className="footer-title">  contact us</div>
-            <div className="footer-text-color1" ><div className="small-title-footer">Address:</div>  123 STREET NAME, CITY, ENGLAND</div>
-            <div className="footer-text-color1" ><div className="small-title-footer">Phone:</div>(123) 456-7890</div>
-            <div className="footer-text-color1" ><div className="small-title-footer">email:</div>MAIL@EXAMPLE.COM</div>
+            <div className="footer-text-color1" ><div className="small-title-footer">Address:</div>  1 : Route de Tozeur Boite Post N°39 ,KM 0.5 2: 4 Rue d'Athènes 2éme Etages Tunis</div>
+            <div className="footer-text-color1" ><div className="small-title-footer">Phone:</div>+216 98429362</div>
+            <div className="footer-text-color1" ><div className="small-title-footer">email:</div>ahmedkamergi@gmail.com</div>
             <div className="footer-text-color1" ><div className="small-title-footer">working days/hours</div>MON - SUN / 9:00AM - 8:00PM</div>
 
 
@@ -90,7 +90,7 @@ function Footer() {
         </div>
         <div className="footer-container third-footer-container">
           <div className="third-footer-container-text">
-            &copy; 2019. Crisp theme Developed by Belvg
+            &copy; 2021.  theme Developed by YAM & Debbich
           </div>
         </div>
       </div>

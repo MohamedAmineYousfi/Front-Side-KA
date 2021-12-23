@@ -43,8 +43,8 @@ function Caroussel() {
         <div className="text">
           <div className="title">
             <div className="sale">
-              SUMMER SALE <br />
-              GET
+              1er Fournisseur de Materiel Sono <br />
+              En Tunisie
             </div>
             <div className="button">SHOP NOW</div>
           </div>
