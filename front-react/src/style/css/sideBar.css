@@ -1,33 +1,182 @@
 .sideBar {
-  background-color: blue;
-  width: 96vw;
-  margin-left: 2vw;
-  margin-right: 2vw;
-  height: 100vh;
-  transform: translateY(13rem);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    width: 96vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    height: 100vh;
+    transform: translateY(13rem);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
 }
 
 .sideBar div {
-  height: 100vh;
-}
-.sideBar div:first-child {
-  position: relative;
-  background-color: brown;
-  width: 28.6vw;
+    height: 100vh;
 }
 
-.sideBar div:last-child {
-  background-color: brown;
-  width: 66vw;
+.sideBar .checkbox {
+    position: relative;
+    width: 28.6vw;
+    height: 100%;
 }
 
-.sideBar div:first-child::after {
-  content: "";
-  position: absolute;
-  border: 1px solid rgb(163, 149, 149);
-  right: -1px;
-  height: 100vh;
+.sideBar .listofImages {
+    width: 66vw;
+}
+
+.sideBar .checkbox::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgb(163, 149, 149);
+    right: -1px;
+    height: 100vh;
+}
+
+.checkbox {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.span {
+    margin: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.filter input {
+    padding: 15px;
+    margin: 10px;
+}
+
+.listofImages {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.blockOfImages,
+.loadMore {
+    position: relative;
+    width: 100%;
+}
+
+
+/*block of image */
+
+.blockOfImages {
+    flex: 0.92;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.blockOfImages div {
+    margin-right: 0.85rem;
+    width: calc((125vw) / 8);
+    height: calc(((100vh - 10vh) - 0.8rem) / 2);
+    margin-bottom: 0.8rem;
+}
+
+.hegWid {
+    width: 15.6vw;
+    height: 35vh;
+}
+
+
+/**load more*/
+
+.loadMore {
+    flex: 0.08;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loadMore span {
+    border: 1px solid black;
+    background-color: transparent;
+    padding: 1.5vh;
+}
+
+.loadMore :hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*end load more */
+
+.cardTitle {
+    font-size: 0.8rem;
+    color: darkgrey;
+}
+
+.cardBody {
+    margin-top: 0.2rem;
+    height: auto !important;
+}
+
+.price {
+    font-weight: bold;
+    margin-top: 0.3rem;
+    font-size: 20px;
+    height: auto !important;
+}
+
+@media (max-width: 1600px) {
+    .sideBar .listofImages {
+        width: 67vw;
+    }
+}
+
+@media (max-width: 1400px) {
+    .sideBar .listofImages {
+        width: 67.5vw;
+    }
+    .sideBar .checkbox {
+        position: relative;
+        width: 27.6vw;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .blockOfImages,
+    .loadMore {
+        position: relative;
+        width: 101%;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        background-color: rgb(184, 110, 13);
+    }
+    .blockOfImages div {
+        width: calc((120vw) / 6);
+    }
+    .sideBar .listofImages {
+        width: 65.5vw;
+    }
+    .hegWid {
+        width: 19.6vw;
+        height: 35vh;
+    }
+    .sideBar .checkbox::after {
+        height: 144vh;
+    }
+    .loadMore {
+        margin-top: 22rem;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: rgb(71, 44, 9);
+    }
 }
