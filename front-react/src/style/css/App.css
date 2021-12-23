@@ -287,3 +287,6 @@ ul li a:hover {
 .ul li:not(:last-child) a {
     border-bottom: 1px solid #ddd;
 }
+.svg {
+    font-size: 50px !important;
+}
