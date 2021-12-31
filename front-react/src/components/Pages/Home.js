@@ -20,9 +20,7 @@ function Home() {
      <FeatruedItems/>
       <MostPopular/>
       <ExpolreMore/>
-      <Footer/>
-      
-      
+      <Footer/>  
     </>
   );
 }
