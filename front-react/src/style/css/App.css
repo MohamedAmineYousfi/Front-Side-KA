@@ -29,6 +29,101 @@
 
 /*small*/
 
+@media (max-width: 900px) and (min-width: 280px){
+    body{
+    background-color: #ddd;    
+    }
+    .container {
+        width: 100%;
+    }
+    .footer-title {
+        font-size: 0.5rem;
+    }
+    .footer-text-color {
+        font-size: 0.4rem;
+    }
+    .footer-text-color1{
+        font-size: 0.5rem;
+    }
+    .footer-text-color2{
+        font-size:  0.5rem;
+    }
+    .container-arrow {
+        margin-right: 20px;
+    }
+    .footer-Subscribe {
+        
+        font-size: 0.7rem;
+    }
+    .footer-email{
+        width: 90%;
+    }
+    .first-footer-container-small{
+        margin-left: -9px;
+        width: calc(80%/5);
+    }
+    .Category {
+        height: -4vh;
+    }
+    .price{
+        font-size: 16px;
+    }
+     .fa-check{
+        display: none;
+    } 
+
+    .logo-footer-width {
+        width: 58px;
+    }
+    .small-title-footer {
+        /* width: 80px; */
+        font-size: 0.5rem;
+    }
+    
+    .nestedContainer{
+        width: 47vw;
+        padding:0;
+        text-transform: lowercase;
+    }
+    .shopNow .shopBtn{
+        margin:3rem ;
+        font-size: 0.9rem;
+        width: 24vw;
+        height: 4vh;
+        padding: 0rem;
+        top:35px;
+        display: none;
+    }
+    /* .discount { */
+        /* display: none; */
+    /* } */
+    .button{
+        background-color: azure;
+    }
+    .featuredItems{
+        display: none;
+    }
+    .listofImages{
+        height: 104vh;
+        width: 66.5vw;
+    }
+    .hegWid{
+        height: 17vh;
+        width: 21.6vw;
+    }
+    .blockOfImages div{
+        margin-bottom: -4.199999999999999rem;
+        margin-left: 8px;
+    }
+    #discount1{
+        margin-top: 440px;
+    }
+    .loadMore{
+        margin-top: 26rem;
+    }
+}
+
+
 @media (min-width: 768px) {
     .container {
         width: 100%;
@@ -41,6 +136,12 @@
 @media (min-width: 992px) {
     .container {
         width: 100%;
+    }
+    .loadMore{
+        margin-left: 50px;
+    }
+    .logo-footer-width {
+        width: 98px;
     }
 }
 
@@ -140,12 +241,16 @@ header .nav {
 }
 
 @media (max-width: 992px) {
+    header  {
+        width: 100%;
+    }
     header .nav {
         display: none;
     }
     .nav2 {
         display: none;
     }
+  
 }
 
 header nav {

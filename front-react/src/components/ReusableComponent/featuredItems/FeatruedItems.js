@@ -21,9 +21,9 @@ function FeatruedItems() {
 
                     <div className="list-of-images">
                         <img src={image} className="fix-width-height" alt="img" />
-                        <div className="cardTitle">TOP women</div>
+                        <div className="cardTitle">TOP SALES</div>
                         <div className="cardBody"> Angels malu zip jeans slim black used</div>
-                        <div className="price">139.00 EUR </div>
+                        <div className="price">139.00 DT </div>
 
                     </div>
                     {/* end image slider */}
@@ -32,9 +32,9 @@ function FeatruedItems() {
 
                     <div className="list-of-images">
                         <img src={image} className="fix-width-height" alt="img" />
-                        <div className="cardTitle">TOP women</div>
+                        <div className="cardTitle">TOP SALES</div>
                         <div className="cardBody"> Angels malu zip jeans slim black used</div>
-                        <div className="price">139.00 EUR </div>
+                        <div className="price">139.00 DT </div>
 
                     </div>
                     {/* end image slider */}
@@ -42,9 +42,9 @@ function FeatruedItems() {
 
                     <div className="list-of-images">
                         <img src={image} className="fix-width-height" alt="img" />
-                        <div className="cardTitle">TOP women</div>
+                        <div className="cardTitle">TOP SALES</div>
                         <div className="cardBody"> Angels malu zip jeans slim black used</div>
-                        <div className="price">139.00 EUR </div>
+                        <div className="price">139.00 DT </div>
 
                     </div>
                     {/* end image slider */}
@@ -52,9 +52,9 @@ function FeatruedItems() {
 
                     <div className="list-of-images">
                         <img src={image} className="fix-width-height" alt="img" />
-                        <div className="cardTitle">TOP women</div>
+                        <div className="cardTitle">TOP SALES</div>
                         <div className="cardBody"> Angels malu zip jeans slim black used</div>
-                        <div className="price">139.00 EUR </div>
+                        <div className="price">139.00 DT </div>
 
                     </div>
                     {/* end image slider */}
@@ -62,9 +62,9 @@ function FeatruedItems() {
 
                     <div className="list-of-images">
                         <img src={image} className="fix-width-height" alt="img" />
-                        <div className="cardTitle">TOP women</div>
+                        <div className="cardTitle">TOP SALES</div>
                         <div className="cardBody"> Angels malu zip jeans slim black used</div>
-                        <div className="price">139.00 EUR </div>
+                        <div className="price">139.00 DT </div>
 
                     </div>
                     {/* end image slider */}

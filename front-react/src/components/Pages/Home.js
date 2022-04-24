@@ -8,7 +8,7 @@ import FeatruedItems from "../ReusableComponent/featuredItems/FeatruedItems";
 import MostPopular from "../ReusableComponent/featuredItems/MostPopular";
 import ExpolreMore from "../ReusableComponent/Discount/expolreMore";
 import Footer from "../ReusableComponent/Footer/Footer";
-import image from "../../../src/style/cart.ico"
+// import image from "../../../src/style/cart.ico"
 function Home() {
   return (
     <>

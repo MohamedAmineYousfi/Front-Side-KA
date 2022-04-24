@@ -3,9 +3,9 @@ import image from "../../../assates/103102735_298006384923121_482166294237224689
 function Discount() {
     return (
      <>
-    <div className="discount">
+    <div className="discount" id='discount1'>
         <div className="smallContainer secondSmallContainer">
-          <div className="nestedContainer HTilte">shoping without limits.</div>
+          <div className="nestedContainer HTilte" >shoping without limits.</div>
           <div className="nestedContainer afterLine">
             You can choose the best option for you, and it does not
             matter whether you are in Prague or San Francisco. We

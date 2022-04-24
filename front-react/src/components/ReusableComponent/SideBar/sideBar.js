@@ -14,7 +14,7 @@ function SideBar() {
               <br />
               <input type="checkbox" /> <span>NEW ARIVALS</span>
               <br />
-              <input type="checkbox" /> <span>TOP WOMEN</span>
+              <input type="checkbox" /> <span>TOP SALES</span>
               <br />
               <input type="checkbox" /> <span>COLLECTION: SUMMER</span>
               <br />
@@ -31,10 +31,10 @@ function SideBar() {
             <div>
               <div>
                 <img className="hegWid" src={image2} alt="img" />
-                <span className="cardTitle">TOP WOMEN</span>
+                <span className="cardTitle">TOP SALES</span>
                 <div className="cardBody">
                   Angels malu zip jeans slim black
-                  <div className="price">139,00 EUR</div>
+                  <div className="price">139,00 DT</div>
                 </div>
               </div>
             </div>
@@ -44,10 +44,10 @@ function SideBar() {
             
               <div>
                 <img className="hegWid" src={image4} alt="img" />
-                <span className="cardTitle">TOP WOMEN</span>
+                <span className="cardTitle">TOP SALES</span>
                 <div className="cardBody">
                   Angels malu zip jeans slim black
-                  <div className="price">139,00 EUR</div>
+                  <div className="price">139,00 DT</div>
                 </div>
               </div>
             </div>
@@ -56,10 +56,10 @@ function SideBar() {
                <div>
               <div>
                 <img className="hegWid" src={image3} alt="img" />
-                <span className="cardTitle">TOP WOMEN</span>
+                <span className="cardTitle">TOP SALES</span>
                 <div className="cardBody">
                   Angels malu zip jeans slim black
-                  <div className="price">139,00 EUR</div>
+                  <div className="price">139,00 DT</div>
                 </div>
               </div>
             </div>
@@ -68,10 +68,10 @@ function SideBar() {
                <div>
               <div>
                 <img className="hegWid" src={image4} alt="img" />
-                <span className="cardTitle">TOP WOMEN</span>
+                <span className="cardTitle">TOP SALES</span>
                 <div className="cardBody">
                   Angels malu zip jeans slim black
-                  <div className="price">139,00 EUR</div>
+                  <div className="price">139,00 DT</div>
                 </div>
               </div>
             </div>
@@ -80,10 +80,10 @@ function SideBar() {
                <div>
               <div>
                 <img className="hegWid" src={image2} alt="img" />
-                <span className="cardTitle">TOP WOMEN</span>
+                <span className="cardTitle">TOP SALES</span>
                 <div className="cardBody">
                   Angels malu zip jeans slim black
-                  <div className="price">139,00 EUR</div>
+                  <div className="price">139,00 DT</div>
                 </div>
               </div>
             </div>
@@ -92,10 +92,10 @@ function SideBar() {
                <div>
               <div>
                 <img className="hegWid" src={image3} alt="img" />
-                <span className="cardTitle">TOP WOMEN</span>
+                <span className="cardTitle">TOP SALES</span>
                 <div className="cardBody">
                   Angels malu zip jeans slim black
-                  <div className="price">139,00 EUR</div>
+                  <div className="price">139,00 DT</div>
                 </div>
               </div>
             </div>
@@ -104,10 +104,10 @@ function SideBar() {
                <div>
               <div>
                 <img className="hegWid" src={image4} alt="img" />
-                <span className="cardTitle">TOP WOMEN</span>
+                <span className="cardTitle">TOP SALES</span>
                 <div className="cardBody">
                   Angels malu zip jeans slim black
-                  <div className="price">139,00 EUR</div>
+                  <div className="price">139,00 DT</div>
                 </div>
               </div>
             </div>
@@ -116,10 +116,10 @@ function SideBar() {
                <div>
               <div>
                 <img className="hegWid" src={image2} alt="img" />
-                <span className="cardTitle">TOP WOMEN</span>
+                <span className="cardTitle">TOP SALES</span>
                 <div className="cardBody">
                   Angels malu zip jeans slim black
-                  <div className="price">139,00 EUR</div>
+                  <div className="price">139,00 DT</div>
                 </div>
               </div>
             </div>

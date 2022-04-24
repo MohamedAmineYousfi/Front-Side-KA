@@ -134,8 +134,14 @@
   margin-left: 1%;
   margin-right: 1%;
 }
-@media (min-width: 768px) {
 
+@media (min-width: 400px) and (max-width:1000px) {
+  .logo-footer-width img{
+  width: 64px;
+}
+}
+
+@media (min-width: 768px) {
 }
 
 
